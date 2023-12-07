@@ -1,0 +1,275 @@
+.cima{ 
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: auto;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic; 
+    margin: 0ch;
+}
+.caixa01{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.img01{
+    width: 360px;
+    position: absolute;
+    top: 380px;
+    left: 200px;
+    right: 0px;
+}
+.img02{
+    width: 1857px;
+    position: relative;
+}
+.img03{
+    width: 15px;
+    position: absolute;
+    top: 82px;
+    left: 1790px;
+    right: 0px;
+    position:absolute;
+}
+.img04{
+    width: 45px;
+    position: absolute;
+    top: 0,1px;
+    left: 780px;
+}
+.img05{
+    width: 45px;
+    position: absolute;
+    top: 1410px;
+    left: 990px;
+}
+.texto01{
+    position: absolute;
+    left: 710px;
+    top: 370px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.texto02{
+    position: relative;
+    left: 700px;
+    top: 1px;
+    width: 900px;
+}
+.texto03{
+    position: absolute;
+    left: 1150px;
+    top: 1300px;
+}
+.texto04{
+    color: #72FF91;
+    font-size: 20px;
+    font-style: italic;
+    left: 10px;
+}
+.texto05{
+    font-style: oblique;
+    color: #72FF91;
+    font-size: 20px;
+    position: absolute;
+    top: 1350px;
+    left: 1585px;
+    font-style: italic;
+}
+.texto06{
+    width: 900px;
+    color: #72FF91;
+    left: 830px;
+    position: relative;
+    font-style: italic;
+}
+.texto07{
+    font-style: oblique;
+    font-style: italic;
+    color: #72FF91;
+    font-size: 20px;
+    position: absolute;
+    top: 1350px;
+    left: 780px;
+}
+.texto08{
+    font-style: oblique;
+    font-style: italic;
+    color: #72FF91;
+    font-size: 20px;
+    position: absolute;
+    top: 1455px;
+    left: 1650px;
+}
+.body{
+    background-color: #72FF91;
+    margin: 0px;
+}
+.search-container {
+    margin: 0 auto;
+    width: 50%;
+    }
+
+.search-container input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    width: 10%;
+    position: absolute;
+    top: 61px;
+    left: 1580px;
+    right: 0px;
+    background-color: #336e00b6;
+    -webkit-text-fill-color: white;
+    }
+
+    .naventrar{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        background-color: #ddd;
+    }
+    body {
+        background: #72FF91;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        color: #000000;
+        margin: 0;
+      }
+      
+      .center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: -1000vh;
+        font-size: 24px;
+      }
+      
+      .btn-3{
+        display: flex;
+        width: 7%;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        top: 61px;
+        left: 500px;
+        height: 5%;
+        justify-content: center;
+        font-size: 24px;
+        margin-top: 20px;
+      }
+      .btn-2{
+        display: flex;
+        width: 7%;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        top: 61px;
+        left: 340px;
+        height: 5%;
+        justify-content: center;
+        font-size: 24px;
+        margin-top: 20px;
+      }
+      .btn-1
+      {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        top: 61px;
+        left: 100px;
+        width: 10%;
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;  
+    }
+      footer a,
+      .btn-1 a,
+      .btn-2 a,
+      .btn-3 a {
+        text-decoration: none;
+        border: 2px solid #72FF91;
+        padding: 10px;
+        color: #000;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+      }
+      span {
+        position: relative;
+        z-index: 3;
+      }
+      .btn-1 a::before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: -2px;
+        width: calc(100% + 6px);
+        height: calc(100% - 10px);
+        background-color: #72FF91;
+        transition: all 0.5s ease-in-out;
+        transform: scaleY(1);
+      }
+      .btn-1 a:hover::before,
+      .btn-2 a:hover::before,
+      .btn-3 a:hover::before {
+        transform: scaleY(0);
+      }
+      .btn-1 a::after {
+        content: "";
+        position: absolute;
+        left: 5px;
+        top: -5px;
+        width: calc(100% - 10px);
+        height: calc(100% + 10px);
+        background-color: #72FF91;
+        transition: all 0.5s ease-in-out;
+        transform: scaleX(1);
+      }
+      .btn-1 a:hover::after,
+      .btn-2 a:hover::after,
+      .btn-3 a:hover::after {
+        transform: scaleX(0);
+      }
+      .btn-2 a,
+      .btn-3 a {
+        color: #000000;
+        transition: all 0.5s ease-in-out;
+      }
+      .btn-2 a:hover,
+      .btn-3 a:hover {
+        color: #ffffff;
+        transition: all 0.5s ease-in-out;
+      }
+      .btn-2 a::before, 
+      .btn-3 a::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #72FF91;
+        transition: all 0.5s ease-in-out;
+        transform: scaleY(1);
+      }
+      .btn-2 a::after,
+      .btn-3 a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #72FF91;
+        transition: all 0.5s ease-in-out;
+        transform: scaleX(1);
+      }
